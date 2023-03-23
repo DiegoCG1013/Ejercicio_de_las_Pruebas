@@ -3,7 +3,7 @@ public class ClaseCadena {
     static final char[] letras = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
 
 
-    public static String DevuelveIniciales(String nombre){
+    public static String devuelveIniciales(String nombre){
         try {
             String[] palabras = nombre.split(" ");
             if (palabras.length != 2) throw new Exception("Error en los espacios");
